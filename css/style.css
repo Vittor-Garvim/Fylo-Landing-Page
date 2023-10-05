@@ -40,11 +40,11 @@ body{
     color: var(--Desaturated-Blue);
 }
 
-.first__section{
+.container{
   margin-top: 50px;
 }
 
-.main__section{
+.first__section{
     width: 100vw;
     height: 650px;
     display: flex;
@@ -92,7 +92,7 @@ body{
     color: var(--Light-Gray);
 }
 
-.main__section img{
+.first__section img{
     width: 850px;
 }
 
@@ -103,4 +103,36 @@ body{
     border-radius: 3px;
     font-size: 20px;
     color: var(--Light-Grayish-Blue);
+    cursor: pointer;
+}
+
+.input__btn:hover{
+    background-color: hsl(224, 97%, 69%);
+    transition: 0.3s;
+}
+
+.second__section{
+    border: 1px red solid;
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ilustration__2{
+    width: 600px;
+}
+
+.second__text__section{
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+}
+
+.container__description{
+    width: 800px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
